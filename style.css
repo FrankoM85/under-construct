@@ -14,12 +14,11 @@ body {
   background-repeat: no-repeat;
   background-size: auto;
   height: 96vh;
-  min-width: 300px;
 }
 
 .main {
   height: 96vh;
-  min-height: 500px;
+  width: 100vw;
 }
 
 .top-slide {
@@ -28,7 +27,7 @@ body {
   margin-top: 20px;
   position: relative;
   overflow: hidden;
-  transform: translate3d(0, 0, 0);
+  /*transform: translate3d(0, 0, 0);*/
 }
 
 .top-slide > div {
@@ -38,7 +37,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  transform: translate3d(0, 0, 0);
+  /*transform: translate3d(0, 0, 0);*/
 }
 .top-slide .mover-1 {
   transition: opacity 0.5s ease-out;
@@ -79,7 +78,7 @@ svg {
   padding: 0;
   display: block;
   margin: 0 auto;
-  height: 300px;
+  height: 400px;
   width: 400px;
 }
 
@@ -93,4 +92,23 @@ svg {
   letter-spacing: 5px;
   color: red;
   font-size: 50px;
+}
+
+@media screen and (max-width: 250px) {
+  svg {
+    height: 100px;
+    width: 100px;
+  }
+}
+@media screen and (max-width: 350px) {
+  svg {
+    height: 200px;
+    width: 200px;
+  }
+}
+@media screen and (max-width: 800px) {
+  svg {
+    height: 300px;
+    width: 300px;
+  }
 }
