@@ -90,7 +90,7 @@ svg {
   text-align: center;
   font-family: "Raleway";
   letter-spacing: 10px;
-  color: rgb(245, 0, 0);
+  color: rgb(255, 0, 0);
   font-size: 50px;
   animation: blinker 2s linear infinite;
   filter: drop-shadow(0px 0px 20px rgba(250, 125, 125, 0.8));
